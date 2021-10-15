@@ -1,0 +1,97 @@
+html{
+    background-color: rgb(235, 232, 232);
+}
+
+*{
+    font-family: sans-serif;
+}
+
+
+.fa-linkedin{
+    font-size: 1.9rem;
+    background-color: rgb(10, 102, 194);
+    padding: 3px 3px 0px 3px;
+    color: white;
+    border-radius: 3px;
+    /* margin-top: 0.3rem; */
+}
+
+#top-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    position: sticky;
+    border-bottom: 1px solid white;
+    height: 3.1rem;
+}
+
+#logo-search-box{
+    display: flex;
+    margin-left: 24rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+
+}
+
+#logo-search-box #search-box{
+    margin-left: 1rem;
+}
+
+#search-box input{
+    border: none;
+    background-color: rgb(231, 236, 241);
+    
+
+
+}
+
+#search-box{
+    background-color: rgb(231, 236, 241);
+    height: 1.2rem;
+    width: 16rem;
+    padding: 8px 0px 8px 15px;
+    /* margin-top: 0.3rem; */
+    color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    
+}
+
+
+#icon-group{
+    display: flex;
+    /* margin-top: 0.3rem; */
+    margin-right: 35rem;
+    /* height: 1rem; */
+
+}
+
+#icon-group .icon{
+    display: flex;
+    flex-direction: column;
+    margin-right:2rem ;
+    align-items:center;
+    color: rgba(0, 0, 0, 0.6);
+    
+
+}
+
+#icon-group p{
+    margin: 2px;
+    font-size: 12px;
+    
+}
+
+/* --------------Buttons------- */
+
+#container-one-buttons{
+    display: flex;
+}
+
+#container-one-buttons button{
+    margin-right: 10px;
+    border-radius: 50px;
+    border-color: rgb(10, 102, 194);
+    /* background-color: white; */
+    
+}
+
