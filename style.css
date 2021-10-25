@@ -70,23 +70,86 @@ html{
     display: flex;
 }
 
+#container-one-buttons:first-child button{
+    border-color: rgb(10, 102, 194);
+    font: 100px;
+}
+
 #container-one-buttons button{
     margin-right: 10px;
     border-radius: 50px;
-    border-color: rgb(10, 102, 194);
-}
-
-#container-one-buttons :nth-child(){
-    color:rgb(10, 102, 194) ;    
 }
 
 #container-one{
-    /* margin-top:rem; */
+    margin-bottom: 50px;
+}
+
+#container-one{
+    border: 1px solid gainsboro;
+    padding: 0px 24px 24px 24px;
+    border-radius: 10px;
+}
+
+
+/* container two */
+
+#contact-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact-info div{
+    border: 1px solid black;
+}
+
+#container-two{
+    border: 1px solid gainsboro;
+    padding: 24px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+/* container three */
+
+#container-three{
+    border: 1px solid gainsboro;
+    padding: 24px;
+    border-radius: 10px;
 
 }
+
+#cards img{
+    width: 70%;
+}
+
+
+
+.card{
+    display: flex;
+}
+
+/*  */
 
 #main-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
-   
+    column-gap: 20px;
+
+}
+
+/* side */
+#side-panel img{
+    border-radius: 1px;
+    margin-bottom: 20px;
+}
+
+.cardd{
+    display: flex;
+    border-bottom: 1px solid rgb(221, 219, 219) ;
+    margin: 20px 0px;
+}
+
+#see-similar{
+    color: rgb(108, 110, 112);
+    text-align: center;
 }
